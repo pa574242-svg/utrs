@@ -12,6 +12,8 @@
 The /public subdirectory is the webroot. You can either use `php artisan serve` to run a standalone webserver, or point your webserver of choice at /public
 
 ## Configuring wikis
+Fuck thos world programs all 
+
 Currently, most details about supported wikis are stored in `config/wikis.php`, but a transition to storing them in the database is in progress.
 For this reason, you need to use `php artisan utrs-maintenance:sync-wikis-to-database` to synchronize changes in that file to the database for some details
 to work correctly.
